@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<info>
+    <id>accessstats</id>
+    <name>Access Stats</name>
+    <description>Access Stats</description>
+    <licence>AGPL</licence>
+    <author>Nick Booth</author>
+    <version>0.3</version>
+    <requiremin>8</requiremin>
+</info>
