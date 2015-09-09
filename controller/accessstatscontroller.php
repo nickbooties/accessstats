@@ -33,7 +33,7 @@ class AccessStatsController extends Controller {
         $data =  "id,time,username,path\r\n";
 
         while($row = $result->fetchRow()) {
-            $data .= "\"".$row['id']."\",\"".date("H:i:s d/m/Y",$row['time'])."\",\"".$row['username']."\",\"".$row['path']."\"\r\n";
+            $data .= "\"".$row['id']."\",\"".$row['time']."\",\"".$row['username']."\",\"".$row['path']."\"\r\n";
         }
 
         header('Content-Description: File Transfer');
